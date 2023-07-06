@@ -19,7 +19,7 @@ def run(protocol: protocol_api.ProtocolContext):
     plate_2 = protocol.load_labware('nest_96_wellplate_200ul_flat', '3')
 
     # Define the pipettes
-    left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[protocol.load_labware('opentrons_96_tiprack_300ul', '1')])
+    left_pipette = protocol.load_instrument('p20_single_gen2', 'left', tip_racks=[protocol.load_labware('opentrons_96_tiprack_20ul', '1')])
 
     # Define the starting well position
     start_well = plate_1.wells('A1')
