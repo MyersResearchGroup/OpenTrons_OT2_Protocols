@@ -23,5 +23,6 @@ def run(protocol):
     
     # cartesian coordinates are best for square plate
     # the coordinates are in mm starting from the middle of the "well" at the bottom of the plate(the bottom of the plate is not exactly the tip touching the bottom of the well plate, but like a bit above that)
+    # with the measurements of 128x86 we can have the grid be 120x80 which means that well 0 = -60, -40, 15.9 (left/right, forward/back, up/down) well 1 = -60,-30,15.9 well 9 = -50, -40, 15.9 well 96= 60,40,15.9 (every well change is a change in 10 mm in a direction
     # min distance between samples == 10 mm for min 4 uL per sample usage of 30mL of agar media for plate
     
